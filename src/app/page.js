@@ -5,10 +5,5 @@ export default function Home() {
   return <main>
     <Navbar />
     <LandingPage />
-    <LandingPage />
-    <LandingPage />
-    <LandingPage />
-    <LandingPage />
-    <LandingPage />
   </main>;
 }

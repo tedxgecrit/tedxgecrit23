@@ -6,6 +6,7 @@
 :root,
 body {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -32,6 +33,15 @@ body {
   border-radius: 4px;
 }
 
+::selection,
+::-moz-selection,
+::-webkit-selection,
+::-ms-selection {
+  background: var(--clr-red);
+  color: white;
+}
+
+/* NAVBAR */
 .nav_items {
   @apply cursor-pointer select-none opacity-80 duration-200 ease-in-out;
 }
@@ -53,5 +63,38 @@ body {
   }
   .nav-close {
     transform: translateY(0%);
+  }
+}
+
+/* HERO */
+.theme_text {
+  position: relative;
+}
+.theme_text::before {
+  content: "our theme";
+  text-transform: lowercase;
+  position: absolute;
+  transform: rotate(-90deg);
+  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-90px] md:font-extralight lg:text-[40px];
+}
+.text-shape {
+  position: relative;
+}
+.text-shape::after {
+  background-color: var(--clr-red);
+  content: "";
+  position: absolute;
+  transform: translateX(50%);
+  width: 50%;
+  height: 85%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 2px;
+}
+@media (max-width: 1024px) {
+  .text-shape::after {
+    width: 100%;
+    transform: translateX(0%);
   }
 }
