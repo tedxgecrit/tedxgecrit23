@@ -1,3 +1,4 @@
 export default function Home() {
-  return <main className="text-lg">home</main>;
+  return <main className="text-lg">
+  </main>;
 }

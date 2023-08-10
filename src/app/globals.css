@@ -9,6 +9,7 @@ body {
 }
 
 :root {
+  --clr-red: #da0400;
 }
 
 body {
@@ -17,4 +18,5 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }

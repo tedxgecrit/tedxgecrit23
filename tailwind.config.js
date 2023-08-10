@@ -7,7 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      colors: {
+        red: "#DA0400",
+      },
+      backgroundImage: {
+        coming_soon: "url('/backgrounds/coming-soon.webp')",
+        swirls: "url('/backgrounds/swirls.webp')",
+        swirls_home: "url('/backgrounds/swirls_home.webp')",
+      },
     },
   },
   plugins: [],
