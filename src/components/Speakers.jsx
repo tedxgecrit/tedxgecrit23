@@ -58,7 +58,7 @@ export default function Speaker() {
 
     }, []);
 
-    return <section className="w-full p-20 lg:pr-0 max-md:p-10 max-md:pr-0 max-sm:p-0 max-sm:pr-0">
+    return <section className="my-8 w-full pr-0 p-20 lg:pr-0 max-md:p-10 max-sm:p-0 overflow-x-hidden">
         <h1 className="max-sm:p-10 text-5xl font-poppins font-thin leading-loose">Speakers</h1>
         <br/><br/>
         {/* Speaker cards start here */}
