@@ -6,6 +6,12 @@
 :root,
 body {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -19,4 +25,73 @@ body {
   background-color: black;
   color: white;
   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-red);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+::selection,
+::-moz-selection,
+::-webkit-selection,
+::-ms-selection {
+  background: var(--clr-red);
+  color: white;
+}
+
+/* NAVBAR */
+.nav_items {
+  @apply cursor-pointer select-none opacity-80 duration-200 ease-in-out;
+}
+.nav_items:hover {
+  @apply opacity-100;
+}
+.close1 {
+  transform: translateY(7.5px) rotate(45deg);
+}
+.close2 {
+  transform: translateY(-7.5px) rotate(315deg);
+}
+.open {
+  transform: rotate(0deg);
+}
+@media (max-width: 1024px) {
+  .nav-open {
+    transform: translateY(-100vh);
+  }
+  .nav-close {
+    transform: translateY(0%);
+  }
+}
+
+/* HERO */
+.theme_text {
+  position: relative;
+}
+.theme_text::before {
+  content: "our theme";
+  text-transform: lowercase;
+  position: absolute;
+  transform: rotate(-90deg);
+  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-85px] md:font-extralight lg:text-[40px];
+}
+.text-shape {
+  position: relative;
+}
+.text-shape::after {
+  @apply absolute left-0 top-0 z-[-1] h-[85%] w-1/2 translate-x-1/2 transform rounded-[2px] bg-red;
+  content: "";
+}
+@media (max-width: 1024px) {
+  .text-shape::after {
+    width: 100%;
+    transform: translateX(0%);
+  }
 }

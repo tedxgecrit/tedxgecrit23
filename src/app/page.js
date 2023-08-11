@@ -1,3 +1,9 @@
+import Navbar from "@/components/Navbar";
+import LandingPage from "@/components/LandingPage";
+
 export default function Home() {
-  return <main className="text-lg"></main>;
+  return <main>
+    <Navbar />
+    <LandingPage />
+  </main>;
 }
