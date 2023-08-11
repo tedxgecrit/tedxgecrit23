@@ -71,16 +71,16 @@ export default function Speaker() {
                 {/* This element prevents scrolling */}
                 <div className="absolute w-full h-full z-20"></div>
                 <div
-                    className="w-full h-full flex flex-col scroll-snap-y scroll-snap-start hide-scrollbar overflow-hidden details-container"
+                    className="w-full h-full flex flex-col scroll-snap-y scroll-snap-start hide-scrollbar overflow-hidden details-container "
                     ref={leftScroll}>
                     {Speaker_data.map((speaker, index) => {
                         return <div key={index + 50}
                                     className="flex-grow max-w-[100%] min-h-full flex flex-col justify-center max-md:justify-start">
-                            <h2 className="font-poppins text-5xl font-extrabold leading-[100%] flex flex-col uppercase max-sm:text-4xl">
+                            <h2 className="font-poppins text-5xl font-extrabold leading-[100%] flex flex-col uppercase max-sm:text-4xl max-sm:font-medium">
                                 <SplitText text={speaker.name}/>
                             </h2>
                             <br/>
-                            <div className="flex items-center">
+                            <div className="flex items-center opacity-95">
                                 <p className="leading-[137.5%] max-sm:leading-[130%] font-poppins font-light">
                                     {speaker.description}
                                 </p>
