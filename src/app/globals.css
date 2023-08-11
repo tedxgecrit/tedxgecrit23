@@ -9,6 +9,11 @@ body {
   box-sizing: border-box;
 }
 
+*,
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --clr-red: #da0400;
 }
@@ -75,22 +80,14 @@ body {
   text-transform: lowercase;
   position: absolute;
   transform: rotate(-90deg);
-  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-90px] md:font-extralight lg:text-[40px];
+  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-85px] md:font-extralight lg:text-[40px];
 }
 .text-shape {
   position: relative;
 }
 .text-shape::after {
-  background-color: var(--clr-red);
+  @apply absolute left-0 top-0 z-[-1] h-[85%] w-1/2 translate-x-1/2 transform rounded-[2px] bg-red;
   content: "";
-  position: absolute;
-  transform: translateX(50%);
-  width: 50%;
-  height: 85%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  border-radius: 2px;
 }
 @media (max-width: 1024px) {
   .text-shape::after {

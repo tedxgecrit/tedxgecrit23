@@ -38,7 +38,7 @@ export default function Navbar({ home = true }) {
         }`}
       >
         <ul className="flex flex-col gap-12 text-center">
-          {home ? <Links /> : <HomeLink />}
+          {home ? <Links setClose={setClose}/> : <HomeLink />}
         </ul>
         <GetTicketsButton />
       </div>
