@@ -1,12 +1,13 @@
 "use client";
 
-import {useRef, useEffect} from "react";
-import cardBg from "../../public/backgrounds/speaker-card-bg.webp"
-import {Speaker_data} from "@/data/SpeakersData.js";
-import {hrScrollIntoView, SplitText, scrollNext, scrollPrevious, LeftArrow, RightArrow} from "./SpeakerCards/Support";
-import cardsScrollLogic from "@/components/SpeakerCards/cardsScrollLogic";
-import "@/components/SpeakerCards/speakerStyles.css";
 import Image from "next/image";
+import {useRef, useEffect} from "react";
+import cardsScrollLogic from "@/components/SpeakerCards/cardsScrollLogic";
+import {hrScrollIntoView, SplitText, scrollNext, scrollPrevious, LeftArrow, RightArrow} from "./SpeakerCards/Support";
+import {Speaker_data} from "@/data/SpeakersData.js";
+import "@/components/SpeakerCards/speakerStyles.css";
+import cardBg from "../../public/backgrounds/speaker-card-bg.webp"
+
 export default function Speaker() {
 
     let currCardIndex = useRef(0);
@@ -66,7 +67,7 @@ export default function Speaker() {
              ref={cardsParentElm}>
             {/* Name and description container */}
             <div
-                className="relative w-[30%] h-[100%] max-lg:w-[40%] max-md:w-[100%] max-md:mt-10 max-md:h-[600px] max-sm:h-[600px] max-sm:px-10">
+                className="relative w-[30%] h-[100%] max-lg:w-[40%] max-md:w-[100%] max-md:mt-10 max-md:h-[600px] max-sm:h-[600px] max-sm:px-5 max-sm:mt-6">
                 {/* This element prevents scrolling */}
                 <div className="absolute w-full h-full z-20"></div>
                 <div
@@ -75,12 +76,12 @@ export default function Speaker() {
                     {Speaker_data.map((speaker, index) => {
                         return <div key={index + 50}
                                     className="flex-grow max-w-[100%] min-h-full flex flex-col justify-center max-md:justify-start">
-                            <h2 className="font-poppins text-5xl font-extrabold leading-[100%] flex flex-col uppercase">
+                            <h2 className="font-poppins text-5xl font-extrabold leading-[100%] flex flex-col uppercase max-sm:text-4xl">
                                 <SplitText text={speaker.name}/>
                             </h2>
                             <br/>
-                            <div className="flex items-center ">
-                                <p className="leading-[137.5%] font-poppins font-light">
+                            <div className="flex items-center">
+                                <p className="leading-[137.5%] max-sm:leading-[130%] font-poppins font-light">
                                     {speaker.description}
                                 </p>
                             </div>
@@ -91,7 +92,7 @@ export default function Speaker() {
 
             {/*Image and navigation components*/}
             <div
-                className="w-[70%] max-h-full flex flex-col gap-10 justify-end pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0">
+                className="w-[70%] max-h-full flex flex-col gap-10 justify-end pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0 max-sm:gap-6">
                 {/*Image card container*/}
                 <div
                     className="w-full flex items-end overflow-x-scroll overflow-y-hidden scroll-snap-x scroll-snap-start hide-scrollbar last-scroll-padd"
@@ -118,7 +119,7 @@ export default function Speaker() {
                     }
                 </div>
                 {/* Navigation */}
-                <div className="flex gap-8 pl-[20px] items-center">
+                <div className="flex gap-8 pl-[20px] items-center ">
                     <a onClick={() => {
                         scrollPrevious(cardsScrollElm, currCardIndex, lastScrollTime, scrollCoolDownTime, Speaker_data)
                     }}><LeftArrow/></a>
