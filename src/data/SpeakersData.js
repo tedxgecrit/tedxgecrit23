@@ -1,7 +1,7 @@
 import speaker1 from "../../public/speakers/s1.webp";
 import speaker2 from "../../public/speakers/s2.webp";
 import speaker3 from "../../public/speakers/s3.webp";
-import speaker4 from "../../public/speakers/s4.png";
+import speaker4 from "../../public/speakers/s4.webp";
 import speaker5 from "../../public/speakers/s5.png";
 
 class Speaker {

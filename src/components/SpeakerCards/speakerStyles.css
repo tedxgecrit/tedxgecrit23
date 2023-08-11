@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 
-/*
-*/
 .font-poppins {
 	font-family: "Poppins", sans-serif;
 }
@@ -111,6 +108,6 @@ https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-eac
 }
 
 .details-container > :not(.active) p:before {
-	height: 0%;
+	height: 0;
 }
 
