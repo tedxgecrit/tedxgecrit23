@@ -77,7 +77,7 @@ export default function Speaker() {
   }, []);
 
   return (
-    <section className="my-8 w-full overflow-x-hidden p-20 pr-0 max-md:p-10 max-sm:p-0 lg:pr-0">
+    <section className="my-8 w-full overflow-x-hidden p-20 pr-0 max-md:p-10 max-sm:p-0 lg:pr-0" id="speakers">
       <h1 className="font-poppins text-5xl font-thin leading-loose max-sm:p-10">
         Speakers
       </h1>
