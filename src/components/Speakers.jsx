@@ -77,7 +77,10 @@ export default function Speaker() {
   }, []);
 
   return (
-    <section className="my-8 w-full overflow-x-hidden p-20 pr-0 max-md:p-10 max-sm:p-0 lg:pr-0" id="speakers">
+    <section
+      className="my-8 w-full overflow-x-hidden p-20 pr-0 max-md:p-10 max-sm:p-0 lg:pr-0"
+      id="speakers"
+    >
       <h1 className="font-poppins text-5xl font-thin leading-loose max-sm:p-10">
         Speakers
       </h1>
@@ -134,13 +137,13 @@ export default function Speaker() {
                       cardsScrollElm.current.children[index]
                     );
                   }}
-                  className="cards-container relative flex aspect-[0.75] w-[380px] p-5 flex-[0_0_auto] select-none items-end justify-center overflow-visible max-sm:w-[250px]"
+                  className="cards-container relative flex aspect-[0.75] w-[380px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-5 max-sm:w-[250px]"
                 >
                   <div className="sub-card-cont relative flex h-full w-full origin-bottom justify-center">
                     <div className="card-bg-container absolute left-0 top-0 h-full w-full overflow-hidden rounded-[15px]">
                       <Image
                         src={cardBg}
-                        className="w-full h-full object-cover object-center"
+                        className="h-full w-full object-cover object-center"
                         alt="Cards background"
                       />
                     </div>
