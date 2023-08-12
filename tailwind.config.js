@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         red: "#DA0400",
+        deepGrey: "#1B1B1B",
       },
       backgroundImage: {
         coming_soon: "url('/backgrounds/coming-soon.webp')",
