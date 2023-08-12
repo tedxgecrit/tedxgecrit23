@@ -2,18 +2,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.outlined {
-  outline: 1px solid red;
-}
-
-/*
-For details; see 
-https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element
-*/
-.one-word-per-line {
-  word-spacing: 100vw;
-}
-
 .scroll-snap-x {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;

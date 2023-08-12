@@ -134,13 +134,13 @@ export default function Speaker() {
                       cardsScrollElm.current.children[index]
                     );
                   }}
-                  className="cards-container relative flex aspect-[10/13] w-[380px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-5 max-sm:w-[250px]"
+                  className="cards-container relative flex aspect-[0.75] w-[380px] p-5 flex-[0_0_auto] select-none items-end justify-center overflow-visible max-sm:w-[250px]"
                 >
                   <div className="sub-card-cont relative flex h-full w-full origin-bottom justify-center">
                     <div className="card-bg-container absolute left-0 top-0 h-full w-full overflow-hidden rounded-[15px]">
                       <Image
                         src={cardBg}
-                        className="h-full"
+                        className="w-full h-full object-cover object-center"
                         alt="Cards background"
                       />
                     </div>
@@ -156,7 +156,7 @@ export default function Speaker() {
           </div>
           {/* Navigation */}
           <div className="flex items-center gap-8 pl-[20px] ">
-            <a
+            <button
               onClick={() => {
                 scrollPrevious(
                   cardsScrollElm,
@@ -166,10 +166,11 @@ export default function Speaker() {
                   Speaker_data
                 );
               }}
+              aria-label="Scroll left button"
             >
               <LeftArrow />
-            </a>
-            <a
+            </button>
+            <button
               onClick={() => {
                 scrollNext(
                   cardsScrollElm,
@@ -179,9 +180,10 @@ export default function Speaker() {
                   Speaker_data
                 );
               }}
+              aria-label="Scroll right button"
             >
               <RightArrow />
-            </a>
+            </button>
             <span className="h-[0.5px] w-[60%] bg-white max-sm:w-[50%]"></span>
           </div>
         </div>
