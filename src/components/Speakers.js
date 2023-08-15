@@ -14,6 +14,7 @@ import {
 import { Speaker_data } from "@/data/SpeakersData.js";
 import "@/components/SpeakerCards/speakerStyles.css";
 import cardBg from "../../public/backgrounds/speaker-card-bg.webp";
+import Heading from "@/components/utility/Heading";
 
 export default function Speaker() {
   let currCardIndex = useRef(0);
@@ -81,11 +82,7 @@ export default function Speaker() {
       className="my-8 w-full overflow-x-hidden p-20 pr-0 max-md:p-10 max-sm:p-0 lg:pr-0"
       id="speakers"
     >
-      <h1 className="font-poppins text-5xl font-thin leading-loose max-sm:p-10">
-        Speakers
-      </h1>
-      <br />
-      <br />
+      <Heading>Speakers</Heading>
       {/* Speaker cards start here */}
       <div
         className="flex h-[600px] w-full flex-[0_0_auto] max-md:h-[auto] max-md:flex-col-reverse"

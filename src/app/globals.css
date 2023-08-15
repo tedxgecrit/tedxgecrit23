@@ -80,7 +80,7 @@ body {
   text-transform: lowercase;
   position: absolute;
   transform: rotate(-90deg);
-  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-85px] md:font-extralight lg:text-[40px];
+  @apply bottom-[40px] left-[-25px] text-[20px] font-light md:bottom-[80px] md:left-[-85px] md:font-extralight lg:bottom-[60px] lg:left-[-60px] lg:text-[30px];
 }
 .text-shape {
   position: relative;
