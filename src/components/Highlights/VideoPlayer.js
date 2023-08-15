@@ -1,5 +1,3 @@
-import React from "react";
-
 const VideoPlayer = () => {
   const src = "https://www.youtube.com/watch?v=l_9lOzqoXsA";
   return (

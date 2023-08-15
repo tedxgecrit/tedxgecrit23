@@ -1,6 +1,6 @@
 import Container from "@/components/utility/Container";
 import Heading from "@/components/utility/Heading";
-import VideoPlayer from "@/components/Highlights/VideoPlayer";
+import VideoPlayer from '@/components/Highlights/VideoPlayer'
 
 export default function Highlights() {
    return (
