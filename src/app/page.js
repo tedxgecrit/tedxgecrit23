@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import LandingPage from "@/components/LandingPage";
 import Speakers from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
+import ContactUs from "@/components/ContactUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LandingPage />
       <Speakers />
       <Highlights />
+      <ContactUs />
     </main>
   );
 }
