@@ -48,10 +48,7 @@ body {
 
 /* NAVBAR */
 .nav_items {
-  @apply cursor-pointer select-none opacity-80 duration-200 ease-in-out;
-}
-.nav_items:hover {
-  @apply opacity-100;
+  @apply cursor-pointer select-none duration-200 ease-in-out;
 }
 .close1 {
   transform: translateY(7.5px) rotate(45deg);
