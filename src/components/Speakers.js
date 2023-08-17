@@ -49,32 +49,32 @@ export default function Speaker() {
       parentHasMouseOver.current = false;
     });
 
-    window.onkeydown = (e) => {
-      if (!parentHasMouseOver.current) {
-        return false;
-      }
-      switch (e.key) {
-        case "ArrowLeft":
-          scrollPrevious(
-            cardsScrollElm,
-            currCardIndex,
-            lastScrollTime,
-            scrollCoolDownTime,
-            Speaker_data
-          );
-          break;
-        case "ArrowRight":
-        case " ":
-          scrollNext(
-            cardsScrollElm,
-            currCardIndex,
-            lastScrollTime,
-            scrollCoolDownTime,
-            Speaker_data
-          );
-          break;
-      }
-    };
+    // window.onkeydown = (e) => {
+    //   if (!parentHasMouseOver.current) {
+    //     return false;
+    //   }
+    //   switch (e.key) {
+    //     case "ArrowLeft":
+    //       scrollPrevious(
+    //         cardsScrollElm,
+    //         currCardIndex,
+    //         lastScrollTime,
+    //         scrollCoolDownTime,
+    //         Speaker_data
+    //       );
+    //       break;
+    //     case "ArrowRight":
+    //     case " ":
+    //       scrollNext(
+    //         cardsScrollElm,
+    //         currCardIndex,
+    //         lastScrollTime,
+    //         scrollCoolDownTime,
+    //         Speaker_data
+    //       );
+    //       break;
+    //   }
+    // };
   }, []);
 
   return (
