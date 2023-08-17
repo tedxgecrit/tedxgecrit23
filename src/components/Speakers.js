@@ -148,6 +148,7 @@ export default function Speaker() {
                       src={speaker.image}
                       className="absolute bottom-0 min-w-[140%] select-none"
                       alt={speaker.name}
+                      loading="eager"
                     />
                   </div>
                 </div>

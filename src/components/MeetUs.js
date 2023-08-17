@@ -9,7 +9,7 @@ export default function MeetUs() {
           support of our sponsors and team members. ❤️
         </div>
         <button className="h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold md:w-[280px]">
-          MEET THEM
+          <a href="/meet-us">MEET THEM</a>
         </button>
       </div>
     </Container>
