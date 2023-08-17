@@ -5,7 +5,7 @@ import VideoPlayer from "@/components/Highlights/VideoPlayer";
 export default function Highlights() {
   return (
     <Container section="highlights">
-      <div className="mb-[550px] h-max">
+      <div>
         <Heading>Highlights</Heading>
         <div className="mt-[15px] flex h-auto w-full flex-col content-center items-center md:mt-[70px]">
           <div className="mt-[110px absolute h-[130px] w-[95%] bg-red md:mt-[220px] md:h-[286px] md:w-[75%] lg:rounded-[5px]"></div>
