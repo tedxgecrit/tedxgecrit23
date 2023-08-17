@@ -5,6 +5,7 @@ const VideoPlayer = () => {
     <iframe
       width="100%"
       height="100%"
+      loading="lazy"
       //   className="rounded-tl-[40px] rounded-br-[40px]"
       src={youtubeLink}
       title="YouTube video player"
