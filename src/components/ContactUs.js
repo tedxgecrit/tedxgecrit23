@@ -11,7 +11,7 @@ export default function ContactUs() {
             Feel free to contact us if you have any questions, comments or
             concerns
           </div>
-          <div className="mt-10 h-[385px] w-full">
+          <form className="mt-10 h-[385px] w-full">
             <div className="mb-[25px]">
               <input
                 placeholder="Name"
@@ -34,8 +34,11 @@ export default function ContactUs() {
               className="h-[220px] w-[82%] resize-none rounded-t-[5px] border-b-2 border-[#DA0400] bg-[#1B1B1B] pl-[10px] pt-[10px] placeholder:text-[18px] placeholder:font-light  focus:outline-none md:w-[50%]"
               required
             />
-          </div>
-          <button className="mt-[10px] h-[50px] w-[232px] rounded-[5px] bg-[#DA0400] text-[20px] font-semibold md:mt-[30px] md:w-[280px]">
+          </form>
+          <button
+            type="submit"
+            className="mt-[10px] h-[50px] w-[232px] rounded-[5px] bg-[#DA0400] text-[20px] font-semibold md:mt-[30px] md:w-[280px]"
+          >
             SEND MESSAGE
           </button>
         </div>
