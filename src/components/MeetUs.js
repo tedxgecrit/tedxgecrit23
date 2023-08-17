@@ -1,4 +1,4 @@
-import Container from "./utility/Container";
+import Container from "@/components/utility/Container";
 
 export default function MeetUs() {
     return(
