@@ -16,7 +16,7 @@ export default function ContactUs() {
               <input
                 placeholder="Name"
                 type="text"
-                className="h-[45px] w-[82%] rounded-t-[5px] border-b-2  border-[#DA0400] bg-[#1B1B1B] pl-[10px] placeholder:text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
+                className="h-[45px] w-[82%] rounded-t-[5px] border-b-2  border-red bg-deepGrey pl-[10px] placeholder:text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
                 required
               />
             </div>
@@ -24,20 +24,20 @@ export default function ContactUs() {
               <input
                 placeholder="Email/Phone"
                 type="text"
-                className="h-[45px] w-[82%] rounded-t-[5px] border-b-2  border-[#DA0400] bg-[#1B1B1B] pl-[10px] placeholder:text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
+                className="h-[45px] w-[82%] rounded-t-[5px] border-b-2  border-red bg-deepGrey pl-[10px] placeholder:text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
                 required
               />
             </div>
             <textarea
               placeholder="Your message..."
               type="text"
-              className="h-[220px] w-[82%] resize-none rounded-t-[5px] border-b-2 border-[#DA0400] bg-[#1B1B1B] pl-[10px] pt-[10px] placeholder:text-[18px] placeholder:font-light  focus:outline-none md:w-[50%]"
+              className="h-[220px] w-[82%] resize-none rounded-t-[5px] border-b-2 border-red bg-deepGrey pl-[10px] pt-[10px] placeholder:text-[18px] placeholder:font-light  focus:outline-none md:w-[50%]"
               required
             />
           </form>
           <button
             type="submit"
-            className="mt-[10px] h-[50px] w-[232px] rounded-[5px] bg-[#DA0400] text-[20px] font-semibold md:mt-[30px] md:w-[280px]"
+            className="mt-[10px] h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold md:mt-[30px] md:w-[280px]"
           >
             SEND MESSAGE
           </button>
