@@ -1,6 +1,7 @@
 import { NavLinks } from "@/data/Navbar";
 import Link from "next/link";
 import { useState } from "react";
+import RedText from "../utility/RedText";
 
 export default function Links({ setClose }) {
   const [active, setActive] = useState("Home");
@@ -29,7 +30,7 @@ export default function Links({ setClose }) {
 export function HomeLink() {
   return (
     <li className="nav_items">
-      <Link href="/">Go to Home</Link>
+      <Link href="/">GO TO <RedText>HOME</RedText></Link>
     </li>
   );
 }

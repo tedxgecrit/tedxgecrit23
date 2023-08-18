@@ -16,8 +16,8 @@ export default function Profile({ lead }) {
   }
 
   return (
-    <div className="absolute bottom-0  left-0 right-0 top-0 flex flex-col items-center justify-center gap-2 bg-gradient-to-b from-[#DA0400] to-[#890300] px-2    opacity-0 transition-all duration-300 hover:opacity-100">
-      <h4 className="max-w-[95%] text-center  text-sm/[110%] capitalize leading-none text-white md:text-lg/[110%] md:leading-tight">
+    <div className="absolute bottom-0 left-0 right-0 top-0 flex cursor-pointer flex-col items-center justify-center gap-2 bg-gradient-to-b from-[#DA0400] to-[#890300] px-2 opacity-0 transition-all duration-300 hover:opacity-100">
+      <h4 className="max-w-[95%] select-none text-center  text-sm/[110%] capitalize leading-none text-white md:text-lg/[110%] md:leading-tight">
         {lead.name}
       </h4>
       {link && (
