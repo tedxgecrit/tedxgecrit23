@@ -10,7 +10,10 @@ export default function Sponsors() {
         <Heading>our sponsors</Heading>
         <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-6 py-8 md:px-[5%]">
           {SponsorData.map((sponsor, index) => (
-            <div key={index} className="h-[100px] w-[100px]  overflow-hidden">
+            <div
+              key={index}
+              className="aspect-square  w-[100px] overflow-hidden"
+            >
               <Image
                 src={sponsor.link}
                 alt={sponsor.text}
