@@ -18,8 +18,6 @@ export const organizer = [
   ),
 ];
 
-
-
 const coreTeam = [
   new Volunteer(
     "Aneesa Azeez",

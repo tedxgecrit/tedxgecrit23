@@ -30,7 +30,9 @@ export default function Links({ setClose }) {
 export function HomeLink() {
   return (
     <li className="nav_items">
-      <Link href="/">GO TO <RedText>HOME</RedText></Link>
+      <Link href="/">
+        GO TO <RedText>HOME</RedText>
+      </Link>
     </li>
   );
 }
