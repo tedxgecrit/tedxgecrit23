@@ -14,7 +14,7 @@ export default function Organizer() {
           <Image
             src={lead.imageLink}
             alt={`${lead.name}'s image`}
-            className="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+            className="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-110"
             width={200}
             height={200}
           />

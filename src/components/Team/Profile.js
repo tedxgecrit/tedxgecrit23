@@ -25,7 +25,7 @@ export default function Profile({ lead }) {
           <div className="aspect-square w-[30px]">
             <Image
               src={icon.icon}
-              className="h-full w-full object-cover"
+              className="aspect-square w-full object-cover"
               alt={icon.text}
               width={50}
               height={50}

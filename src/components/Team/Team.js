@@ -13,7 +13,7 @@ export default function Team() {
           <Organizer />
           <div className="my-16 space-y-16">
             {Object.keys(volunteers).map((key, index) => (
-              <Group key={index} teamData={volunteers[key]} heading={key} />
+              <Group key={index} teamMember={volunteers[key]} heading={key} />
             ))}
           </div>
         </div>
