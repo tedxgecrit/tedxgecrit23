@@ -2,7 +2,7 @@ import SmallHeading from "./SmallHeading";
 
 const Address = () => {
   return (
-    <div className="flex flex-col gap-4 md:gap-6 text-center md:flex-1">
+    <div className="flex flex-col gap-4 text-center md:flex-1 md:gap-6">
       <div>
         <SmallHeading>FIND US</SmallHeading>
         <p className="footer_text">

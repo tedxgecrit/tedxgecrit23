@@ -64,7 +64,6 @@ const coreTeam = [
     "/team/core/aswin.webp"
   ),
   new Volunteer("Diya K A", null, null, null, "/team/core/diya.webp"),
-
 ];
 
 const contentTeam = [

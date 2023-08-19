@@ -6,7 +6,7 @@ import FooterIcon from "./Footers/FooterIcon";
 
 const Footer = () => {
   return (
-    <footer className="w-screen space-y-5 bg-deepGrey md:mt-[6rem] px-[2rem] py-[3rem] md:space-y-[5rem] md:py-[4rem] lg:px-[150px]">
+    <footer className="w-screen space-y-5 bg-deepGrey px-[2rem] py-[3rem] md:mt-[6rem] md:space-y-[5rem] md:py-[4rem] lg:px-[150px]">
       <section className="flex flex-col justify-between gap-8 md:flex-row md:gap-0">
         <Logos />
         <Address />

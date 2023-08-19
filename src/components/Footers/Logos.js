@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Logos = () => {
   return (
-    <div className="mt-[6px] flex flex-col items-center md:items-start text-center md:flex-1 md:text-left">
+    <div className="mt-[6px] flex flex-col items-center text-center md:flex-1 md:items-start md:text-left">
       <Image
         src="/logos/logo.webp"
         height={40}
