@@ -26,7 +26,7 @@ const coreTeam = [
     "https://instagram.com/aneesara_murphy",
     "/team/core/aneesa.webp"
   ),
-  new Volunteer("Sarath Suresh P", null, null, null, "/team/core/sarath.webp"),
+  new Volunteer("Sarath Suresh ", null, null, null, "/team/core/sarath.webp"),
   new Volunteer(
     "Elvis Jacob Ajay",
     null,

@@ -10,7 +10,10 @@ export default function MeetUs() {
           support of our sponsors and team members. ❤️
         </div>
         <button className="h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold md:w-[280px]">
-          <Link href="/meet-us" className="h-full w-full">
+          <Link
+            href="/meet-us"
+            className="flex h-full w-full items-center justify-center"
+          >
             MEET THEM
           </Link>
         </button>

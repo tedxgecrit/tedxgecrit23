@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Group({ teamMember, heading }) {
   return (
     <section>
-      <h3 className="text-2xl/[70%] font-light capitalize tracking-tighter opacity-50 md:text-3xl/[70%]">
+      <h2 className="select-none text-2xl/[70%] font-light capitalize tracking-tighter opacity-50 md:text-3xl/[70%]">
         {heading}
-      </h3>
+      </h2>
       <div className="mt-3 flex w-full flex-wrap justify-center gap-8 border-t-2 border-white border-opacity-50 py-3 md:justify-start">
         {teamMember.map((member, index) => (
           <div
