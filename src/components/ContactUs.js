@@ -39,7 +39,7 @@ export default function ContactUs() {
             Feel free to contact us if you have any questions, comments or
             concerns!
           </div>
-          <form className="mt-[25px] h-[385px] w-full" onSubmit={handleSubmit}>
+          <form className="mt-[25px] w-full" onSubmit={handleSubmit}>
             <div>
               <div className="mb-[25px]">
                 <input

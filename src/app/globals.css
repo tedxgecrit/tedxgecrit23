@@ -9,7 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-*,
 html {
   scroll-behavior: smooth;
 }
@@ -105,4 +104,7 @@ body {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
   }
+}
+.footer_text {
+  @apply text-[14px] leading-tight md:text-[16px];
 }
