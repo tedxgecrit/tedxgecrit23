@@ -21,7 +21,7 @@ export default function Profile({ lead }) {
         {lead.name}
       </h4>
       {link && (
-        <a href={link}>
+        <a href={link} target="_blank">
           <div className="aspect-square w-[30px] translate-y-10 duration-300 ease-out group-hover:translate-y-0">
             <Image
               src={icon.icon}
