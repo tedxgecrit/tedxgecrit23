@@ -1,4 +1,5 @@
 import Container from "@/components/utility/Container";
+import Link from "next/link";
 
 export default function MeetUs() {
   return (
@@ -9,7 +10,12 @@ export default function MeetUs() {
           support of our sponsors and team members. ❤️
         </div>
         <button className="h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold md:w-[280px]">
-          <a href="/meet-us">MEET THEM</a>
+          <Link
+            href="/meet-us"
+            className="flex h-full w-full items-center justify-center"
+          >
+            MEET THEM
+          </Link>
         </button>
       </div>
     </Container>

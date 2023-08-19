@@ -26,7 +26,7 @@ const coreTeam = [
     "https://instagram.com/aneesara_murphy",
     "/team/core/aneesa.webp"
   ),
-  new Volunteer("Sarath Suresh P", null, null, null, "/team/core/sarath.webp"),
+  new Volunteer("Sarath Suresh ", null, null, null, "/team/core/sarath.webp"),
   new Volunteer(
     "Elvis Jacob Ajay",
     null,
@@ -63,6 +63,8 @@ const coreTeam = [
     null,
     "/team/core/aswin.webp"
   ),
+  new Volunteer("Diya K A", null, null, null, "/team/core/diya.webp"),
+
 ];
 
 const contentTeam = [
@@ -299,20 +301,12 @@ const sponsorshipTeam = [
     "/team/sponsorship/sanju.webp"
   ),
   new Volunteer(
-    "Karthika M Nambiar",
-    "https://www.linkedin.com/in/karthika-nambiar-305ab2225/",
-    null,
-    null,
-    "/team/sponsorship/karthika.webp"
-  ),
-  new Volunteer(
     "Abhishekh Jayadev Nair",
     "https://www.linkedin.com/in/abhishekh-jayadev-nair-b36442225",
     null,
     null,
     "/team/sponsorship/abhishekh.webp"
   ),
-  new Volunteer("Diya K A", null, null, null, "/team/sponsorship/diya.webp"),
 ];
 
 const eventTeam = [
