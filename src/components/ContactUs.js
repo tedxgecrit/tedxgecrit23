@@ -35,11 +35,11 @@ export default function ContactUs() {
       <Heading>Contact</Heading>
       <div className="w-full">
         <div className="flex flex-col items-center text-center">
-          <div className="w-[85%] pt-[25px] text-center text-[20px] font-light leading-tight md:w-[40%] md:text-[24px]">
+          <div className="w-[85%] pt-[10px] text-center text-[18px] font-light leading-tight md:w-[40%] md:text-[20px]">
             Feel free to contact us if you have any questions, comments or
             concerns!
           </div>
-          <form className="mt-10 h-[385px] w-full" onSubmit={handleSubmit}>
+          <form className="mt-[25px] h-[385px] w-full" onSubmit={handleSubmit}>
             <div>
               <div className="mb-[25px]">
                 <input
@@ -69,7 +69,7 @@ export default function ContactUs() {
             </div>
             <button
               type="submit"
-              className="mb-[25px] h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold text-white outline-none md:mt-[30px] md:w-[280px]"
+              className="mb-[25px] h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold text-white outline-none md:mt-[25px] md:w-[280px]"
             >
               {!loading ? "SEND MESSAGE" : <Loader />}
             </button>
