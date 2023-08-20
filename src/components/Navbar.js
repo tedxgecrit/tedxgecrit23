@@ -52,7 +52,7 @@ const GetTicketsButton = () => (
   <button className="w-[165px] rounded-[3px] bg-red font-semibold ">
     <Link
       href={yepDeskLink}
-      className="flex h-full w-full px-4 py-2 lg:py-1 justify-center"
+      className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
     >
       Get Tickets
     </Link>
