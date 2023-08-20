@@ -1,3 +1,4 @@
+import Link from "next/link";
 import RedText from "../utility/RedText";
 
 export default function Details() {
@@ -16,7 +17,7 @@ export default function Details() {
         <div>your</div>
         <div>tickets</div>
         <div>
-          <RedText>NOW</RedText>
+          <RedText><Link href="#tickets">NOW</Link></RedText>
         </div>
       </div>
     </article>

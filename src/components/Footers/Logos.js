@@ -10,7 +10,7 @@ const Logos = () => {
         loading="lazy"
         alt="TEDx GEC RIT logo, Kottayam"
       />
-      <p className="footer_text mt-4">
+      <p className="footer_text mt-2">
         This independent TEDx event
         <br /> is operated under license
         <br /> from TED.
