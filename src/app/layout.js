@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <PoppinsFont />
-      <body>{children}</body>
+      <body className="selection:bg-red selection:text-white">{children}</body>
     </html>
   );
 }

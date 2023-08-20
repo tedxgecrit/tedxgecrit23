@@ -12,6 +12,7 @@ const FooterIcon = ({ link, iconName }) => {
           alt={IconData[iconName]?.text}
           width={30}
           height={30}
+          loading="lazy"
         />
       </Link>
     );

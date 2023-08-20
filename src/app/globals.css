@@ -41,7 +41,7 @@ body {
 ::-moz-selection,
 ::-webkit-selection,
 ::-ms-selection {
-  background: var(--clr-red);
+  background-color: var(--clr-red);
   color: white;
 }
 

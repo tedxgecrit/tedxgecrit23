@@ -69,7 +69,7 @@ export default function ContactUs() {
             </div>
             <button
               type="submit"
-              className="mb-[25px] h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold text-white outline-none md:mt-[25px] md:w-[280px]"
+              className="mb-[25px] w-[185px] rounded-[3px] bg-red py-2 font-semibold outline-none md:mt-[25px]"
             >
               {!loading ? "SEND MESSAGE" : <Loader />}
             </button>

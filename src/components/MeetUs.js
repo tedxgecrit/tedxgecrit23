@@ -9,10 +9,10 @@ export default function MeetUs() {
           This initiative would not have been possible without the generous
           support of our sponsors and team members. ❤️
         </div>
-        <button className="h-[50px] w-[232px] rounded-[5px] bg-red text-[20px] font-semibold md:w-[280px]">
+        <button className="w-[185px] rounded-[3px] bg-red font-semibold">
           <Link
             href="/meet-us"
-            className="flex h-full w-full items-center justify-center"
+            className="flex h-full w-full justify-center py-2 "
           >
             MEET THEM
           </Link>

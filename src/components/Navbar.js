@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import Hamburger from "@/components/Navbar/Hamburger";
 import Links, { HomeLink } from "@/components/Navbar/Links";
+import Link from "next/link";
+import { yepDeskLink } from "@/data/links";
 
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);
@@ -47,7 +49,12 @@ export default function Navbar({ home = true }) {
 }
 
 const GetTicketsButton = () => (
-  <button className="w-[165px] rounded-[3px] bg-red px-4 py-2 font-semibold lg:py-1">
-    Get Tickets
+  <button className="w-[165px] rounded-[3px] bg-red font-semibold ">
+    <Link
+      href={yepDeskLink}
+      className="flex h-full w-full px-4 py-2 lg:py-1 justify-center"
+    >
+      Get Tickets
+    </Link>
   </button>
 );
