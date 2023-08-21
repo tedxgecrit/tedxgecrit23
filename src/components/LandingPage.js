@@ -16,8 +16,8 @@ const debounce = (func, delay) => {
 export default function LandingPage() {
   const windowWidth =
     typeof window !== "undefined" ? window?.innerWidth / 2 : 0;
-  const screenOffset = windowWidth > 384 ? -120 : 0;
-  const [pos, setPos] = useState({ x: screenOffset });
+  let screenOffset = windowWidth > 384 ? -120 : 0;
+  const [pos, setPos] = useState({ x: screenOffset || 0 });
 
   const handleMouseMove = debounce((e) => {
     const xOffset = (windowWidth - e.clientX) / 10 + screenOffset;
