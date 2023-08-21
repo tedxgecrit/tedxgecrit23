@@ -1,6 +1,6 @@
 const Container = (props) => {
   return (
-    <section className="my-8 h-fit w-full lg:px-[150px]" id={props?.section}>
+    <section className="pt-[75px] pb-[75px] h-fit w-full lg:px-[150px]" id={props?.section}>
       {props.children}
     </section>
   );
