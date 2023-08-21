@@ -4,7 +4,7 @@ import RedText from "./utility/RedText";
 const AboutTheme = () => {
   return (
     <Container section="about_theme">
-      <article className="flex w-full items-center justify-center pt-2 pb-[10vh] text-center md:h-[50vh] md:px-[5%] md:pb-0">
+      <article className="flex w-full items-center justify-center pt-2 text-center md:px-[5%]">
         <p className="para block px-2 text-left md:px-0 md:text-center">
           In a world of complexities, contradictions, and mysteries, TEDxGECRIT
           presents <RedText>"Unraveling Paradoxes."</RedText> Through
