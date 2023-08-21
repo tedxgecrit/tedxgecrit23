@@ -8,7 +8,7 @@ export default function Details() {
         <div>TEDx</div>
         <div>GECRIT</div>
       </div>
-      <div className="text-shape flex-1 text-center font-extralight leading-none select-none">
+      <div className="text-shape flex-1 select-none text-center font-extralight leading-none">
         <div className="text-[80px]">09</div>
         <div className="text-[30px]">SEP '23</div>
       </div>
