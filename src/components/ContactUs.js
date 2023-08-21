@@ -35,19 +35,26 @@ export default function ContactUs() {
       <Heading>Contact</Heading>
       <div className="w-full">
         <div className="flex flex-col items-center text-center">
-          <div className="w-[85%] pt-[10px] text-center text-[18px] font-light leading-tight md:w-[40%] md:text-[20px]">
+          <div className="w-[85%] pt-[15px] text-center text-[18px] font-light leading-tight md:w-[40%] md:text-[20px]">
             Feel free to contact us if you have any questions, comments or
             concerns!
           </div>
           <form className="mt-[25px] w-full" onSubmit={handleSubmit}>
+            <div className="mb-[12.5px] px-[15%] text-[16px] leading-tight opacity-50">
+              Enter your <label htmlFor="name">name, </label>
+              <label htmlFor="email">email and </label>
+              <label htmlFor="message">message below:</label>
+            </div>
             <div>
               <div className="mb-[25px]">
                 <input
                   placeholder="Name"
                   type="text"
                   id="name"
+                  name="name"
                   className="h-[45px] w-[82%] rounded-t-[5px] border-b-2 border-red bg-deepGrey pl-[10px] text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
                   required
+                  autoComplete="name"
                 />
               </div>
               <div className="mb-[25px]">
@@ -55,21 +62,26 @@ export default function ContactUs() {
                   placeholder="Email"
                   type="text"
                   id="email"
+                  name="email"
                   className="h-[45px] w-[82%] rounded-t-[5px] border-b-2  border-red bg-deepGrey pl-[10px] text-[18px] placeholder:font-light focus:outline-none md:w-[50%]"
                   required
+                  autoComplete="email"
                 />
               </div>
               <textarea
                 placeholder="Your message..."
                 type="text"
                 id="message"
-                className="mb-[25px] h-[220px] w-[82%] resize-none rounded-t-[5px] border-b-2 border-red bg-deepGrey pl-[10px] pt-[10px] text-[18px] placeholder:font-light focus:outline-none  md:w-[50%] lg:mb-0"
+                name="message"
+                className="mb-[25px] h-[220px] w-[82%] resize-none rounded-t-[5px] border-b-2 border-red bg-deepGrey pl-[10px] pt-[10px] text-[18px] placeholder:font-light  focus:outline-none
+                md:w-[50%] lg:mb-0"
                 required
+                autoComplete="off"
               />
             </div>
             <button
               type="submit"
-              className="mb-[25px] w-[185px] rounded-[3px] bg-red py-2 font-semibold outline-none md:mt-[25px]"
+              className="w-[185px] rounded-[3px] bg-red py-2 font-semibold outline-none md:mt-[25px]"
             >
               {!loading ? "SEND MESSAGE" : <Loader />}
             </button>

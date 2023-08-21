@@ -9,17 +9,17 @@ const UsefulLinks = () => {
         <SmallHeading>Useful Links</SmallHeading>
         <div className="footer_text my-1 flex cursor-pointer flex-col gap-1">
           <p>
-            <Link className="ease hover:text-red" href="/">
+            <Link className="ease hover:text-redText" href="/">
               Home
             </Link>
           </p>
           <p>
-            <Link className="ease hover:text-red" href={yepDeskLink}>
+            <Link className="ease hover:text-redText" href={yepDeskLink}>
               Book Ticket
             </Link>
           </p>
           <p>
-            <Link className="ease hover:text-red" href="/meet-us">
+            <Link className="ease hover:text-redText" href="/meet-us">
               Sponsors & Team
             </Link>
           </p>
@@ -30,7 +30,7 @@ const UsefulLinks = () => {
         <div className="footer_text my-1 flex flex-col gap-1">
           <div>+91 80751 91836</div>
           <Link
-            className="ease cursor-pointer hover:text-red"
+            className="ease cursor-pointer hover:text-redText"
             href="mailto:tedxrit23@gmail.com"
           >
             tedxrit23@gmail.com

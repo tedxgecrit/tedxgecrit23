@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Graphics({ pos }) {
   const style1 = {
     transform: `translateX(${pos.x / 3}px)`,
