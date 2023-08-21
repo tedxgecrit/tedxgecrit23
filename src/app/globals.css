@@ -108,3 +108,18 @@ body {
 .footer_text {
   @apply text-[14px] leading-tight md:text-[16px];
 }
+
+.para {
+  text-wrap: balance;
+  max-inline-size: 70ch;
+  white-space: unset;
+}
+.highlight::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: 85%;
+  border-radius: 2px;
+  z-index: -1;
+  background: var(--clr-red);
+}

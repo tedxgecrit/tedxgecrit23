@@ -53,6 +53,7 @@ const GetTicketsButton = () => (
     <Link
       href={yepDeskLink}
       className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
+      target="_blank"
     >
       Get Tickets
     </Link>

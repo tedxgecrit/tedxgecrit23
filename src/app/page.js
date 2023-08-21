@@ -5,13 +5,19 @@ import Highlights from "@/components/Highlights";
 import MeetUs from "@/components/MeetUs";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
+import AboutTheme from "@/components/AboutTheme";
+import AboutUs from "@/components/AboutUs";
+import Tickets from "@/components/Tickets";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <LandingPage />
+      <AboutTheme />
       <Speakers />
+      <Tickets />
+      <AboutUs />
       <Highlights />
       <MeetUs />
       <ContactUs />

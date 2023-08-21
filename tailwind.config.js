@@ -15,6 +15,8 @@ module.exports = {
         coming_soon: "url('/backgrounds/coming-soon.webp')",
         swirls: "url('/backgrounds/swirls.webp')",
         swirls_home: "url('/backgrounds/swirls_home.webp')",
+        tm: "url('/assets/tm.png')",
+        td: "url('/assets/td.png')",
       },
     },
   },
