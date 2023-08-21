@@ -5,8 +5,8 @@ const VideoPlayer = () => {
     <iframe
       width="780"
       height="480"
-      loading="eager"
-      // className="rounded-tl-[40px] rounded-br-[40px]"
+      loading="lazy"
+      cache="true"
       className="z-2 absolute left-[50%] h-[187px] w-[350px] -translate-x-1/2 md:h-[416px] md:w-[750px] lg:h-[480px] lg:w-[900px] lg:rounded-[5px] "
       src={youtubeVideoLink}
       title="YouTube video player"
