@@ -2,11 +2,11 @@ name: Prettier write
 on:
   workflow_dispatch:
   # Runs at 4:30 AM IST (23:00 UTC)
-  schedule:
-    - cron: "0 23 * * *"
+  # schedule:
+  #   - cron: "0 23 * * *"
 jobs:
   write:
-    if: github.repository == 'tedx-rit/tedxgecrit23'
+    if: github.repository == 'tedxgecrit/tedxgecrit23'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

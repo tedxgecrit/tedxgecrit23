@@ -4,6 +4,7 @@ import Image from "next/image";
 import Heading from "../utility/Heading";
 
 export default function Sponsors() {
+  if (SponsorData.length === 0) return <></>;
   return (
     <Container>
       <section className="mx-[4%]">
