@@ -1,6 +1,8 @@
-import aa from "../../public/speakers/anoop_ambika.webp";
-import vv from "../../public/speakers/v_vigneshwari.webp";
 import ar from "../../public/speakers/anaswara_ramesh.webp";
+import aa from "../../public/speakers/anoop_ambika.webp";
+import an from "../../public/speakers/adhila_noora.webp";
+import sk from "../../public/speakers/siddique_kappan.webp";
+import vv from "../../public/speakers/v_vigneshwari.webp";
 
 class Speaker {
   constructor(name, description, image) {
@@ -15,6 +17,16 @@ export const Speaker_data = [
     "V Vigneswari",
     "Meet the remarkable Ms. V Vigneswari IAS, a dynamic force currently serving as the Kottayam District Collector. Marked by her dedication to public service Ms. Vigneswari had earlier served as the managing director of KTDC and Director of Collegiate Education. Step into the extraordinary world of V. Vigneswari, a former TCS engineer turned public servant, passionately advocating for a nation rid of child labor and a person who seeks public opinion to shape change collaboratively. Brace yourselves to be inspired and amazed by the remarkable  IAS officer whose vision goes far beyond convention here at TEDxGECRIT.",
     vv
+  ),
+  new Speaker(
+    "Siddique Kappan",
+    "In the ever-evolving landscape of journalism, where the quest for truth often navigates through the labyrinth of paradoxes, one name stands out as a beacon of integrity and unwavering commitment – Siddique Kappan. A master storyteller, a guardian of the Fourth Estate, and a voice for the voiceless, Siddique's journey through the realm of journalism has been nothing short of extraordinary. Picture this: A journalist who doesn't merely report the news, but delves deep into the crux of stories, uncovering hidden layers of complexity that boggle the mind. Siddique's words have a way of unravelling paradoxes that surround us, exposing the heart of the matter with a rare blend of compassion and diligence.",
+    sk
+  ),
+  new Speaker(
+    "Adhila Nasarin",
+    "Hailing from Aluva, Adhila has fearlessly taken on a fight against all odds to be reunited with her love. Adhila has found herself in a situation where she believes that seeking assistance from the police and the court is necessary to be able to live with the person she loves. Adhila's fight exemplifies the struggles that individuals in LGBTQ+ relationships sometimes face in seeking recognition, acceptance. Let us embrace her story as a testament to the enduring power of love and the strength of the human spirit. Let us hold our hands together for pride and be sure to show each of yours support on September 9, 2023.",
+    an
   ),
   new Speaker(
     "Anoop Ambika",

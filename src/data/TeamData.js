@@ -172,7 +172,7 @@ const technicalTeam = [
     null,
     null,
     "https://instagram.com/8th_trap",
-    "/team/technical/sangeeth.webp"
+    "/team/technical/sangeeth_s.webp"
   ),
   new Volunteer(
     "Anzif A",
