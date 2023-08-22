@@ -1,5 +1,4 @@
-
-const VideoPlayer = ({link}) => {
+const VideoPlayer = ({ link }) => {
   return (
     <iframe
       width="780"
