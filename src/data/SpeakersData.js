@@ -3,6 +3,7 @@ import aa from "../../public/speakers/anoop_ambika.webp";
 import an from "../../public/speakers/adhila_noora.webp";
 import sk from "../../public/speakers/siddique_kappan.webp";
 import vv from "../../public/speakers/v_vigneshwari.webp";
+import np from "../../public/speakers/adv_navaneeth_p.webp";
 
 class Speaker {
   constructor(name, description, image) {
@@ -13,6 +14,11 @@ class Speaker {
 }
 
 export const Speaker_data = [
+  new Speaker(
+    "Adv. Navaneeth",
+    "Get ready to meet the amazing Navaneeth Pavithran. He is a passionate lawyer who is empowering the masses through law. His mission is simple, yet powerful: to bring law to the common people. He believes that legal literacy is a tool of empowerment, a means to uplift individuals and communities. Join us as we explore the fascinating world of Navaneeth Pavithran, a former journalist turned lawyer, who is dedicated to spreading legal awareness and education among the public. Prepare to be inspired and enlightened by the brilliant lawyer who has a vision of a more just and inclusive society here at TEDxGECRIT.",
+    np
+  ),
   new Speaker(
     "V Vigneswari",
     "Meet the remarkable Ms. V Vigneswari IAS, a dynamic force currently serving as the Kottayam District Collector. Marked by her dedication to public service Ms. Vigneswari had earlier served as the managing director of KTDC and Director of Collegiate Education. Step into the extraordinary world of V. Vigneswari, a former TCS engineer turned public servant, passionately advocating for a nation rid of child labor and a person who seeks public opinion to shape change collaboratively. Brace yourselves to be inspired and amazed by the remarkable  IAS officer whose vision goes far beyond convention here at TEDxGECRIT.",

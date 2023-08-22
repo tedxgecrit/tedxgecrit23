@@ -4,6 +4,7 @@ import Image from "next/image";
 import Heading from "../utility/Heading";
 
 export default function Sponsors() {
+  if (SponsorData.length === 0) return <></>;
   return (
     <Container>
       <section className="mx-[4%]">
@@ -15,7 +16,7 @@ export default function Sponsors() {
                 src={sponsor.link}
                 alt={sponsor.text}
                 key={index}
-                className="aspect-square w-full object-contain transition-all duration-300 ease-in-out group-hover:scale-110 image-select-none"
+                className="image-select-none aspect-square w-full object-contain transition-all duration-300 ease-in-out group-hover:scale-110"
                 height={200}
                 width={200}
               />
