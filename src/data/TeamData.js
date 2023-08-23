@@ -63,7 +63,6 @@ const coreTeam = [
     null,
     "/team/core/aswin.webp"
   ),
-  new Volunteer("Diya K A", null, null, null, "/team/core/diya.webp"),
 ];
 
 const contentTeam = [
@@ -271,6 +270,7 @@ const sponsorshipTeam = [
     null,
     "/team/sponsorship/bharath_k.webp"
   ),
+  new Volunteer("Diya K A", null, null, null, "/team/sponsorship/diya.webp"),
   new Volunteer(
     "Shreya Balu",
     "https://www.linkedin.com/in/shreya-balu-6b0308248",
