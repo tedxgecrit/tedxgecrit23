@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import AboutTheme from "@/components/AboutTheme";
 import AboutUs from "@/components/AboutUs";
 import Tickets from "@/components/Tickets";
+import Performer from "@/components/Performer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <LandingPage />
       <AboutTheme />
       <Speakers />
+      <Performer />
       <Tickets />
       <AboutUs />
       <Highlights />
