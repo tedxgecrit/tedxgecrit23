@@ -16,7 +16,7 @@ class Speaker {
 export const Speaker_data = [
   new Speaker(
     "Adv. Navaneeth",
-    "Get ready to meet the amazing Navaneeth Pavithran. He is a passionate lawyer who is empowering the masses through law. His mission is simple, yet powerful: to bring law to the common people. He believes that legal literacy is a tool of empowerment, a means to uplift individuals and communities. Join us as we explore the fascinating world of Navaneeth Pavithran, a former journalist turned lawyer, who is dedicated to spreading legal awareness and education among the public. Prepare to be inspired and enlightened by the brilliant lawyer who has a vision of a more just and inclusive society here at TEDxGECRIT.",
+    "Get ready to meet the amazing Navaneeth Pavithran. He is a passionate lawyer who is empowering the masses through law. His mission is simple, yet powerful: to bring law to the common people. He believes that legal literacy is a tool of empowerment, a means to uplift individuals and communities. Join us as we explore the fascinating world of Navaneeth Pavithran, who is dedicated to spreading legal awareness and education among the public. Prepare to be inspired and enlightened by the brilliant lawyer who has a vision of a more just and inclusive society here at TEDxGECRIT.",
     np
   ),
   new Speaker(
