@@ -14,11 +14,6 @@ const UsefulLinks = () => {
             </Link>
           </p>
           <p>
-            <Link className="ease hover:text-redText" href={yepDeskLink}>
-              Book Ticket
-            </Link>
-          </p>
-          <p>
             <Link className="ease hover:text-redText" href="/meet-us">
               Sponsors & Team
             </Link>
