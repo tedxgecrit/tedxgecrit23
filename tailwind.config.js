@@ -13,7 +13,7 @@ module.exports = {
         deepGrey: "#1B1B1B",
       },
       backgroundImage: {
-        ayush :"url('/team/ayush_krishna.webp')",
+        ayush: "url('/team/ayush_krishna.webp')",
         coming_soon: "url('/backgrounds/coming-soon.webp')",
         swirls: "url('/backgrounds/swirls.webp')",
         swirls_home: "url('/backgrounds/swirls_home.webp')",
