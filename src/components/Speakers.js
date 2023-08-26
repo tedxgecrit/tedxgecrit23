@@ -89,7 +89,7 @@ export default function Speaker() {
         ref={cardsParentElm}
       >
         {/* Name and description container */}
-        <div className="relative h-[100%] w-[30%] max-lg:w-[40%] max-md:mt-10 max-md:h-[600px] max-md:w-[100%] max-sm:mt-6 max-sm:h-[600px] max-sm:px-5">
+        <div className="relative h-[100%] w-[35%] max-lg:w-[40%] max-md:mt-10 max-md:h-[600px] max-md:w-[100%] max-sm:mt-6 max-sm:h-[600px] max-sm:px-5">
           {/* This element prevents scrolling */}
           <div className="absolute z-20 h-full w-full"></div>
           <div
@@ -118,7 +118,7 @@ export default function Speaker() {
         </div>
 
         {/*Image and navigation components*/}
-        <div className="flex max-h-full w-[70%] flex-col justify-end gap-10 pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0 max-sm:gap-6">
+        <div className="flex max-h-full w-[65%] flex-col justify-end gap-10 pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0 max-sm:gap-6">
           {/*Image card container*/}
           <div
             className="scroll-snap-x scroll-snap-start hide-scrollbar last-scroll-padd flex w-full items-end overflow-y-hidden overflow-x-scroll"
