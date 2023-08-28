@@ -7,7 +7,7 @@ export function LeftArrow() {
       height="40"
       viewBox="0 0 65 65"
       fill="none"
-      className="group"
+      className="group border-none outline-none focus:outline-none"
     >
       <circle
         strokeWidth="1.5px"
@@ -42,7 +42,7 @@ export function RightArrow() {
       height="40"
       viewBox="0 0 65 65"
       fill="none"
-      className="group"
+      className="group border-none outline-none focus:outline-none"
     >
       <circle
         strokeWidth="1.5px"
