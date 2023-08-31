@@ -1,3 +1,26 @@
-import Sponsor from "../../public/sponsors/sponsor.png";
+import certify_me from "../../public/sponsors/certify_me.webp";
+import msigma from "../../public/sponsors/msigma.webp";
 
-export const SponsorData = [];
+class Sponsor {
+  constructor(title, alt, website, image) {
+    this.title = title;
+    this.alt = alt;
+    this.website = website;
+    this.image = image;
+  }
+}
+
+export const SponsorData = [
+  new Sponsor(
+    "Credential Sponsor",
+    "CertifyMe",
+    "https://www.certifyme.online/",
+    certify_me
+  ),
+  new Sponsor(
+    "Education Sponsor",
+    "MSIGMA GOKULAM",
+    "https://www.msigmagokulam.com/",
+    msigma
+  ),
+];
