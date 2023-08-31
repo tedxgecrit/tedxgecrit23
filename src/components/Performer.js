@@ -9,11 +9,11 @@ const Performer = () => {
         {/* AYUSH KRISHNA */}
         <div className="h-[200px] w-full bg-ayush bg-cover bg-custom md:w-[300px] lg:bg-cover lg:bg-left"></div>
         <SpecialPerformance id="1">
-          Prepare to be captivated as our{" "}
-          mentalist <RedText>Ayush Krishna</RedText> takes the stage,
-          demonstrating his uncanny ability to read minds, predict outcomes, and
-          influence thoughts. He will lead you into a world where the impossible
-          becomes possible.
+          Prepare to be captivated as our mentalist{" "}
+          <RedText>Ayush Krishna</RedText> takes the stage, demonstrating his
+          uncanny ability to read minds, predict outcomes, and influence
+          thoughts. He will lead you into a world where the impossible becomes
+          possible.
           <p className="mt-2 leading-tight">
             Get ready to have your mind blown! See you at TEDxGECRIT.
           </p>
