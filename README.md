@@ -32,7 +32,8 @@ The website is built using the following technologies:
 
 ## Configurations for local Deployement:
 
-Install dependencies 
+Install dependencies
+
 ```
 npm install
 ```
@@ -42,7 +43,9 @@ First, run the development server:
 ```
 npm run dev
 ```
+
 or
+
 ```
 yarn dev
 ```

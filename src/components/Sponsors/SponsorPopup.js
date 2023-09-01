@@ -16,7 +16,7 @@ const SponsorPopup = ({ popupOpen, setPopupOpen, sponsor }) => {
         <h2 className="mb-1 text-left text-[40px] leading-none">
           {sponsor.alt}
         </h2>
-        <h3 className="mb-1 text-left text-[20px] tracking-wide uppercase leading-tight ">
+        <h3 className="mb-1 text-left text-[20px] uppercase leading-tight tracking-wide ">
           {sponsor.title}
         </h3>
         <p className="mt-3 text-[14px] leading-tight opacity-80">
