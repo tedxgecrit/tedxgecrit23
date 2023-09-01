@@ -124,3 +124,17 @@ body {
   z-index: -1;
   background: var(--clr-red);
 }
+
+/* SPONSOR POPUP MODULE */
+.sponsor_popup {
+  @apply fixed left-1/2 top-1/2 z-50 h-auto
+    w-[350px] -translate-x-1/2 rounded-xl border-2 border-white/30 px-[1.5rem] py-[1rem] backdrop-blur-xl
+    transition-all duration-300 ease-out lg:w-[700px];
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(236, 0, 0, 0.05));
+}
+.popupOpen {
+  @apply -translate-y-1/2 scale-100;
+}
+.popupClose {
+  @apply w-[120px] translate-y-[150%] scale-0 duration-500;
+}
