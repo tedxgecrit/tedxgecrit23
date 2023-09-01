@@ -15,7 +15,7 @@ class Sponsor {
 export const SponsorData = [
   new Sponsor(
     "Supporting Sponsor",
-    "GEC RIT, Kotayam",
+    "GEC RIT, Kottayam",
     "http://www.rit.ac.in/",
     rit,
     "Nestled amidst the lush green landscapes of Kerala, Rajiv Gandhi Institute of Technology Kottayam (RIT) stands as a beacon of academic excellence and innovation. As one of the most distinguished Government engineering colleges in the state, with NBA accredited Undergraduate programs RIT has consistently earned a reputation for nurturing exceptional talent and intellectual curiosity."
