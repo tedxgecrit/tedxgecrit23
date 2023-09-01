@@ -5,7 +5,7 @@ const SpecialPerformance = (props) => {
     <div className="h-fit w-full ">
       <Heading>Special Performance #{props.id}</Heading>
       <div className="space-y-4 px-6 md:px-0">
-        <p className="leading-tight md:w-[90%]">{props.children}</p>
+        <article className="leading-tight md:w-[90%]">{props.children}</article>
       </div>
     </div>
   );

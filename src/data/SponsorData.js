@@ -1,5 +1,6 @@
 import certify_me from "../../public/sponsors/certify_me.webp";
 import msigma from "../../public/sponsors/msigma.webp";
+import rit from "../../public/sponsors/rit.webp";
 
 class Sponsor {
   constructor(title, alt, website, image) {
@@ -11,6 +12,12 @@ class Sponsor {
 }
 
 export const SponsorData = [
+  new Sponsor(
+    "Supporting Sponsor",
+    "GEC RIT, Kotayam",
+    "http://www.rit.ac.in/",
+    rit
+  ),
   new Sponsor(
     "Credential Sponsor",
     "CertifyMe",

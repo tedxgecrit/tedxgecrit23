@@ -26,7 +26,7 @@ const Performer = () => {
         <div className="h-[200px] w-full bg-sabareesh bg-cover bg-custom md:w-[300px] lg:bg-cover lg:bg-left"></div>
         <SpecialPerformance id="2">
           <RedText>Sabareesh Narayanan</RedText> better known in the limelight
-          as <quote className="italic">'standupsabari'</quote> is one of the
+          as <span className="italic">'standupsabari'</span> is one of the
           popular stand up comedian from Kerala,who is also a well rounded
           advertising consultant,freelance filmmaker and entrepreneur.With his
           unparalleled energy and witty observations he captivate the audience
