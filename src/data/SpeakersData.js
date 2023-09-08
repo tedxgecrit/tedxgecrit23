@@ -45,9 +45,4 @@ export const Speaker_data = [
     "With a career spanning 25 years, Priyesh is an accomplished IT leader in the industry specifically in driving Large Scale Program Management, Portfolio Management, Account Management, Digital Transformation, Thought Leadership, Financial and Operations Management, and IT budgeting. Presently, he is the Delivery Director at Cognizant. He has consistently pushed the boundaries of what's possible in the realm of technology. Mr. Priyesh’s contributions extend far beyond the boardroom. He has a keen interest in Psychology and is a certified Life Coach, Agile Coach, Personal Transformation Coach, NLP Master Practitioner, Enneagram Expert and Transactional Analysis Expert. Get ready to be enlightened by our enthusiastic speaker’s journey at TEDxGECRIT.",
     pg
   ),
-  new Speaker(
-    "V Vigneswari",
-    "V. Vigneswari IAS is the honorable District Collector of Kottayam, standing as a prominent figure leading with unwavering passion and purpose. She has held significant positions in the public sector, including serving as the Managing Director of Kerala Tourism Development Corporation (KTDC) and as the Director of Collegiate Education. As a 2015 batch Kerala cadre IAS officer, she began her IAS journey as an Asistant Secretary at the Dept. of Economic Affairs. Prior to her illustrious career in public service, Vigneswari started her professional journey in the corporate world, as an Assistant System Engineer at TCS. Overall, V. Vigneswari IAS is a visionary individual with a commitment to her enduring dream of creating a child labour free nation. Her leadership is characterized by an emphasis on valuing people's opinions and prioritizing their issues.",
-    vv
-  ),
 ];
