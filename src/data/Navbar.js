@@ -3,5 +3,6 @@ export const NavLinks = [
   { text: "Speakers", link: "#speakers" },
   { text: "About", link: "#about" },
   { text: "Highlights", link: "#highlights" },
+  { text: "Sponsors", link: "/meet-us" },
   { text: "Contact", link: "#contact" },
 ];

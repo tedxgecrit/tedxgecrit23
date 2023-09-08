@@ -4,6 +4,7 @@ import an from "../../public/speakers/adhila_noora.webp";
 import sk from "../../public/speakers/siddique_kappan.webp";
 import vv from "../../public/speakers/v_vigneshwari.webp";
 import np from "../../public/speakers/adv_navaneeth_p.webp";
+import pg from "../../public/speakers/priyesh_gopalakrishnan.webp";
 
 class Speaker {
   constructor(name, description, image) {
@@ -18,11 +19,6 @@ export const Speaker_data = [
     "Adv. Navaneeth",
     "Navaneeth Pavithran: Empowering Masses through Law. Navaneeth Pavithran, a beacon of inspiration, is a dynamic social media influencer and passionate justice advocate. With a unique vision, he's making legal knowledge accessible, reshaping our perception of law. Navaneeth's journey is unconventional. Trained as a lawyer, he saw law's limitations in reaching everyday people. To bridge this gap, he harnessed digital media's potential. Through one-minute videos and Instagram posts, he passionately simplifies complex legal jargon for everyone. His motto is simple yet profound: bring law to the common man. Legal literacy, he believes, empowers and uplifts individuals and communities. Discover the man, his mission, the stories fueling his passion, and his groundbreaking impact.",
     np
-  ),
-  new Speaker(
-    "V Vigneswari",
-    "V. Vigneswari IAS is the honorable District Collector of Kottayam, standing as a prominent figure leading with unwavering passion and purpose. She has held significant positions in the public sector, including serving as the Managing Director of Kerala Tourism Development Corporation (KTDC) and as the Director of Collegiate Education. As a 2015 batch Kerala cadre IAS officer, she began her IAS journey as an Asistant Secretary at the Dept. of Economic Affairs. Prior to her illustrious career in public service, Vigneswari started her professional journey in the corporate world, as an Assistant System Engineer at TCS. Overall, V. Vigneswari IAS is a visionary individual with a commitment to her enduring dream of creating a child labour free nation. Her leadership is characterized by an emphasis on valuing people's opinions and prioritizing their issues.",
-    vv
   ),
   new Speaker(
     "Siddique Kappan",
@@ -43,5 +39,15 @@ export const Speaker_data = [
     "Anaswara Ramesh",
     "Anaswara Ramesh, a remarkable teenager from Kochi, Kerala, has left an indelible mark in record books and garnered prestigious awards for her outstanding achievements. Her journey exemplifies a fearless pursuit of knowledge and innovation. Anaswara's academic commitment, acknowledged with the CCRT Scholarship, and her technological aptitude, showcased by her WhiteHat Jr Scholarship, showcase her diverse talents. She serves as an inspiration, showcasing that determination and a passion for change can dismantle barriers and create a substantial impact.",
     ar
+  ),
+  new Speaker(
+    "Priyesh Gopalakrishnan",
+    "With a career spanning 25 years, Priyesh is an accomplished IT leader in the industry specifically in driving Large Scale Program Management, Portfolio Management, Account Management, Digital Transformation, Thought Leadership, Financial and Operations Management, and IT budgeting. Presently, he is the Delivery Director at Cognizant. He has consistently pushed the boundaries of what's possible in the realm of technology. Mr. Priyesh’s contributions extend far beyond the boardroom. He has a keen interest in Psychology and is a certified Life Coach, Agile Coach, Personal Transformation Coach, NLP Master Practitioner, Enneagram Expert and Transactional Analysis Expert. Get ready to be enlightened by our enthusiastic speaker’s journey at TEDxGECRIT.",
+    pg
+  ),
+  new Speaker(
+    "V Vigneswari",
+    "V. Vigneswari IAS is the honorable District Collector of Kottayam, standing as a prominent figure leading with unwavering passion and purpose. She has held significant positions in the public sector, including serving as the Managing Director of Kerala Tourism Development Corporation (KTDC) and as the Director of Collegiate Education. As a 2015 batch Kerala cadre IAS officer, she began her IAS journey as an Asistant Secretary at the Dept. of Economic Affairs. Prior to her illustrious career in public service, Vigneswari started her professional journey in the corporate world, as an Assistant System Engineer at TCS. Overall, V. Vigneswari IAS is a visionary individual with a commitment to her enduring dream of creating a child labour free nation. Her leadership is characterized by an emphasis on valuing people's opinions and prioritizing their issues.",
+    vv
   ),
 ];
