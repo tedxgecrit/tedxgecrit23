@@ -11,6 +11,7 @@ module.exports = {
         red: "#DA0400",
         redText: "#FA0400",
         deepGrey: "#1B1B1B",
+        grey: "#585858"
       },
       backgroundImage: {
         ayush: "url('/team/ayush_krishna.webp')",
