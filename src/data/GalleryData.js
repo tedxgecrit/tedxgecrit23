@@ -8,28 +8,6 @@
  * - src: The path to the image
  * - alt: The alt text for the image
  */
-// const GalleryData = {
-// 	"Event wrap up": [
-// 		{
-// 			src: "",
-// 			alt: "Some image"
-// 		},
-
-// 	],
-// 	"Siddique Kappan": [
-
-// 	],
-// 	"Standup Shabari": [
-
-// 	],
-// 	"Anaswara Rajan": [
-
-// 	],
-// 	"8th December 2023": [
-
-// 	]
-// }
-
 const GalleryData = {
   "Event wrap up": [
     {
