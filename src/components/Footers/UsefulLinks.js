@@ -1,6 +1,5 @@
 import Link from "next/link";
 import SmallHeading from "./SmallHeading";
-import { yepDeskLink } from "@/data/links";
 
 const UsefulLinks = () => {
   return (
