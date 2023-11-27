@@ -5,7 +5,7 @@ import { useState } from "react";
 import Hamburger from "@/components/Navbar/Hamburger";
 import Links, { HomeLink } from "@/components/Navbar/Links";
 import Link from "next/link";
-import { yepDeskLink } from "@/data/links";
+import { yepDeskLink } from "@/data/SocialLinks";
 
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);

@@ -1,13 +1,13 @@
 import Address from "@/components/Footers/Address";
 import Logos from "@/components/Footers/Logos";
 import UsefulLinks from "@/components/Footers/UsefulLinks";
+import FooterIcon from "./Footers/FooterIcon";
 import {
   githubLink,
   instagramLink,
   linkedinLink,
   youtubeLink,
-} from "@/data/links";
-import FooterIcon from "./Footers/FooterIcon";
+} from "@/data/SocialLinks";
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import Container from "@/components/utility/Container";
 import Heading from "@/components/utility/Heading";
 import VideoPlayer from "@/components/Highlights/VideoPlayer";
-import { youtubeVideoLink } from "@/data/links";
+import { youtubeVideoLink } from "@/data/SocialLinks";
 
 export default function Highlights() {
   const link = youtubeVideoLink;
