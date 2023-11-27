@@ -8,7 +8,7 @@ const EachTalk = (props) => {
   const handleClick = () => router.push(props.ytLink);
   return (
     <div>
-      <div className="w-full py-4 text-center text-[18px] font-bold leading-tight md:text-[24px]">
+      <div className="max-h-[400px] w-full py-4 text-center text-[18px] font-bold leading-tight md:text-[24px]">
         Talk by {props.name}
       </div>
       <div

@@ -25,10 +25,10 @@ class Talk {
 }
 
 export const TalksLinks = [
-  new Talk("Navaneeth Krishna", link1, "/talks-thumbnails/navaneeth.webp"),
+  new Talk("Navaneeth P", link1, "/talks-thumbnails/navaneeth.webp"),
   new Talk("Siddique Kappan", link2, "/talks-thumbnails/kappan.webp"),
   new Talk("Anoop Ambika", link3, "/talks-thumbnails/anoop.webp"),
-  new Talk("Anaswara", link4, "/talks-thumbnails/anaswara.webp"),
+  new Talk("Anaswara Ramesh", link4, "/talks-thumbnails/anaswara.webp"),
   new Talk("Priyesh Gopalakrishnan", link5, "/talks-thumbnails/priyesh.webp"),
   new Talk("Adhila Nasarin", link6, "/talks-thumbnails/adhila.webp"),
 ];
