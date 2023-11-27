@@ -1,17 +1,34 @@
-export const link1 = "https://youtu.be/Fzqb5V31hQ4";
+const link1 = "https://youtu.be/Fzqb5V31hQ4";
 // Navaneeth Krishna
 
-export const link2 = "https://youtu.be/uZ85TWCFg3I";
+const link2 = "https://youtu.be/uZ85TWCFg3I";
 // Siddique Kappan
 
-export const link3 = "https://youtu.be/uUXHEpc3wYc";
+const link3 = "https://youtu.be/uUXHEpc3wYc";
 // Anoop Ambika
 
-export const link4 = "https://youtu.be/Tzib16dAA0w";
+const link4 = "https://youtu.be/Tzib16dAA0w";
 // Anaswara
 
-export const link5 = "https://youtu.be/MwYi2GDFecU";
+const link5 = "https://youtu.be/MwYi2GDFecU";
 // Priyesh Gopalakrishnan
 
-export const link6 = "https://youtu.be/bysqCjn9n1c";
+const link6 = "https://youtu.be/bysqCjn9n1c";
 // Adhila Nasarin
+
+class Talk {
+  constructor(name, ytLink, imageLink) {
+    this.name = name;
+    this.ytLink = ytLink;
+    this.imageLink = imageLink;
+  }
+}
+
+export const TalksLinks = [
+  new Talk("Navaneeth Krishna", link1, "/talks-thumbnails/navaneeth.webp"),
+  new Talk("Siddique Kappan", link2, "/talks-thumbnails/kappan.webp"),
+  new Talk("Anoop Ambika", link3, "/talks-thumbnails/anoop.webp"),
+  new Talk("Anaswara", link4, "/talks-thumbnails/anaswara.webp"),
+  new Talk("Priyesh Gopalakrishnan", link5, "/talks-thumbnails/priyesh.webp"),
+  new Talk("Adhila Nasarin", link6, "/talks-thumbnails/adhila.webp"),
+];

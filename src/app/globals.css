@@ -138,3 +138,49 @@ body {
 .popupClose {
   @apply w-[120px] translate-y-[150%] scale-0 duration-500;
 }
+
+.talk_image {
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  border: 2px solid var(--clr-red);
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  scale: 1;
+  transform: translate(-10px, 10px);
+  transition: all 0.3s ease-in-out;
+}
+.talk_image_container:hover {
+  cursor: pointer;
+}
+.talk_image_container:hover .talk_image {
+  cursor: pointer;
+  border: 2px solid var(--clr-redText);
+  box-shadow: 0 0 30px var(--clr-redText);
+}
+.talk_image_container::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  height: 80px;
+  width: 80px;
+  background: var(--clr-red);
+  background: url("/talks-thumbnails/play.webp");
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.talk_image_container:hover .talk_image {
+  transform: translate(0px, 0px);
+  scale: 1.01;
+  box-shadow: 0 0 30px var(--clr-redText);
+}
+@media screen and (max-width: 768px) {
+  .talk_image {
+    transform: translate(0px, 0px);
+    scale: 1.05;
+    box-shadow: 0 0 15px var(--clr-redText);
+  }
+}
