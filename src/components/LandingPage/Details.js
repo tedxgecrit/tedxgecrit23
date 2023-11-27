@@ -13,12 +13,14 @@ export default function Details() {
         <div className="text-[30px]">SEP '23</div>
       </div>
       <div className="flex-1 text-[30px] font-extralight leading-none lg:text-right">
-        <div>Grab</div>
-        <div>your</div>
-        <div>tickets</div>
+        <div>See</div>
+        <div>the</div>
+        <div>talks</div>
         <div>
           <RedText>
-            <Link href="#tickets">NOW</Link>
+            <Link href="/talks" className="underline">
+              HERE
+            </Link>
           </RedText>
         </div>
       </div>

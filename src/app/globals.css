@@ -183,4 +183,9 @@ body {
     scale: 1.05;
     box-shadow: 0 0 15px var(--clr-redText);
   }
+  .talk_image_container::before {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+  }
 }
