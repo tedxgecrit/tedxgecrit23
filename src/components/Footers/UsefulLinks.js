@@ -22,7 +22,7 @@ const UsefulLinks = () => {
       <div>
         <SmallHeading>GET IN TOUCH</SmallHeading>
         <div className="footer_text my-1 flex flex-col gap-1">
-          <div>+91 80751 91836</div>
+          <div>{process.env.NEXT_PUBLIC_PHONE}</div>
           <Link
             className="ease cursor-pointer hover:text-redText"
             href="mailto:tedxrit23@gmail.com"
