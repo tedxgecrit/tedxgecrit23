@@ -33,7 +33,7 @@ export function HomeLink() {
   return (
     <li className="nav_items">
       <Link href="/">
-        GO TO <RedText>HOME</RedText>
+        GO <RedText>HOME</RedText>
       </Link>
     </li>
   );

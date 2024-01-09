@@ -28,7 +28,7 @@ const GallerySection = ({ name, imageData }) => {
                 alt={value.alt || "image gallery pzhoto"}
                 ref={img}
                 onClick={() => {
-                  setPreviewImage(img.current.src);
+                  setPreviewImage(`/${value.src}`);
                   setPreviewVisible(true);
                 }}
               />
@@ -61,13 +61,15 @@ const GallerySection = ({ name, imageData }) => {
               <path d="M6 6l12 12" />
             </svg>
           </button>
-          <Image
-            width={800}
-            height={800}
-            alt="Image preview"
-            className="absolute z-20 h-auto max-h-[80%] w-auto max-w-[80%] duration-200"
-            src={previewImage}
-          />
+          {previewImage && previewImage.length > 0 && (
+            <Image
+              width={800}
+              height={800}
+              alt="Image preview"
+              className="absolute z-20 h-auto max-h-[80%] w-auto max-w-[80%] duration-200"
+              src={previewImage}
+            />
+          )}
         </div>
       )}
     </>
