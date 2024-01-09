@@ -138,3 +138,14 @@ body {
 .popupClose {
   @apply w-[120px] translate-y-[150%] scale-0 duration-500;
 }
+.animate-fade{
+  animation: fade 0.3s ease-in-out;
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

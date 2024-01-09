@@ -9,8 +9,9 @@ export default function Page() {
     <main>
       <Navbar home={false} />
       <Container>
-          <Heading>Gallery</Heading>
-          <Gallery/>
+        <Heading>Gallery</Heading>
+        <br />
+        <Gallery />
       </Container>
       <Footer />
     </main>
