@@ -41,7 +41,7 @@ export default function Navbar({ home = true }) {
           close ? "nav-close" : "nav-open"
         }`}
       >
-        <ul className="flex flex-col gap-12 text-center">
+        <ul className="flex flex-col gap-6 text-center">
           {home ? <Links setClose={setClose} /> : <HomeLink />}
         </ul>
         <GetTicketsButton />

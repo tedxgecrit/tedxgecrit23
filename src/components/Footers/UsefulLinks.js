@@ -2,21 +2,36 @@ import Link from "next/link";
 import SmallHeading from "./SmallHeading";
 
 const UsefulLinks = () => {
+  const links = [
+    {
+      name: "Home",
+      link: "/",
+    },
+    {
+      name: "Sponsors & Team",
+      link: "/meet-us",
+    },
+    {
+      name: "Talks",
+      link: "/talks",
+    },
+    {
+      name: "Gallery",
+      link: "/gallery",
+    },
+  ];
   return (
     <div className="flex flex-col gap-4 text-center md:flex-1 md:gap-6 md:text-right">
       <div>
         <SmallHeading>Useful Links</SmallHeading>
         <div className="footer_text my-1 flex cursor-pointer flex-col gap-1">
-          <p>
-            <Link className="ease hover:text-redText" href="/">
-              Home
-            </Link>
-          </p>
-          <p>
-            <Link className="ease hover:text-redText" href="/meet-us">
-              Sponsors & Team
-            </Link>
-          </p>
+          {links.map((link) => (
+            <p key={link.name}>
+              <Link className="ease hover:text-redText" href={link.link}>
+                {link.name}
+              </Link>
+            </p>
+          ))}
         </div>
       </div>
       <div>
